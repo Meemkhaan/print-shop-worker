@@ -1,0 +1,392 @@
+{
+  "version": "1.0",
+  "currency": "PKR",
+  "services": [
+    {
+      "id": "xerox_bw_single",
+      "category": "Photocopy / Xerox",
+      "name": "B&W Single Side",
+      "unit": "page",
+      "formats": {"A4": 10, "A3": 20},
+      "notes": "Walk-in or send file on WhatsApp"
+    },
+    {
+      "id": "xerox_bw_duplex",
+      "category": "Photocopy / Xerox",
+      "name": "B&W Both Sides (Duplex)",
+      "unit": "page",
+      "formats": {"A4": 15, "A3": 30},
+      "notes": ""
+    },
+    {
+      "id": "xerox_color",
+      "category": "Photocopy / Xerox",
+      "name": "Color Photocopy",
+      "unit": "page",
+      "formats": {"A4": 40, "A3": 80},
+      "notes": ""
+    },
+    {
+      "id": "xerox_bulk",
+      "category": "Photocopy / Xerox",
+      "name": "Bulk / Volume Photocopy",
+      "unit": "page",
+      "formats": {},
+      "bulk_rules": [{"min_qty": 500, "note": "Special rate - contact for quote"}, {"min_qty": 1000, "note": "Best rate - contact for quote"}],
+      "notes": "Share quantity for exact quote"
+    },
+    {
+      "id": "print_bw",
+      "category": "Document Printing",
+      "name": "B&W Digital Print",
+      "unit": "page",
+      "formats": {"A4": 15},
+      "notes": "Fast turnaround. Send file + page count."
+    },
+    {
+      "id": "print_color",
+      "category": "Document Printing",
+      "name": "Color Digital Print",
+      "unit": "page",
+      "formats": {"A4": 50, "A3": 100},
+      "notes": "Gloss/matte options. Send file for quote."
+    },
+    {
+      "id": "print_thesis",
+      "category": "Document Printing",
+      "name": "Thesis / Reports / Booklets",
+      "unit": "job",
+      "formats": {},
+      "notes": "Print + spiral/thermal binding. Cover page options. Share page count + binding type."
+    },
+    {
+      "id": "print_photo",
+      "category": "Document Printing",
+      "name": "Photo Print",
+      "unit": "piece",
+      "formats": {"4x6": 100, "5x7": 150, "A4": 350},
+      "notes": "Send photos on WhatsApp."
+    },
+    {
+      "id": "stationery_cards",
+      "category": "Business Stationery",
+      "name": "Business Cards",
+      "unit": "100 pcs",
+      "formats": {"Standard": 1200, "Premium (matte/spot UV)": 2500},
+      "notes": "Both sides available. Share design or ask for design help."
+    },
+    {
+      "id": "stationery_letterhead",
+      "category": "Business Stationery",
+      "name": "Letterheads",
+      "unit": "100 sheets",
+      "formats": {"A4": 1500},
+      "notes": "Offset/digital. Share logo + text."
+    },
+    {
+      "id": "stationery_envelopes",
+      "category": "Business Stationery",
+      "name": "Envelopes",
+      "unit": "piece",
+      "formats": {"Printed": 15},
+      "notes": "Standard & window types."
+    },
+    {
+      "id": "stationery_invoice",
+      "category": "Business Stationery",
+      "name": "Invoice / Bill Books",
+      "unit": "book",
+      "formats": {},
+      "notes": "Carbonless (NCR) books. Custom numbering available. Share format sample for quote."
+    },
+    {
+      "id": "stationery_stamps",
+      "category": "Business Stationery",
+      "name": "Rubber Stamps / Seals",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Self-inking stamps. Custom text/logo. Share text or logo."
+    },
+    {
+      "id": "marketing_flyers",
+      "category": "Marketing Materials",
+      "name": "Flyers / Leaflets",
+      "unit": "100 pcs",
+      "formats": {"A5/A4": 1500},
+      "notes": "Single or both sides. Depends on qty & paper. Share size + quantity."
+    },
+    {
+      "id": "marketing_brochures",
+      "category": "Marketing Materials",
+      "name": "Brochures / Folders",
+      "unit": "job",
+      "formats": {},
+      "notes": "Bi-fold/tri-fold. Gloss or matte. Share design or content for quote."
+    },
+    {
+      "id": "marketing_posters",
+      "category": "Marketing Materials",
+      "name": "Posters",
+      "unit": "job",
+      "formats": {},
+      "notes": "A3/A2/custom sizes. Indoor paper or outdoor material."
+    },
+    {
+      "id": "marketing_stickers",
+      "category": "Marketing Materials",
+      "name": "Stickers / Product Labels",
+      "unit": "job",
+      "formats": {},
+      "notes": "Paper or vinyl. Sheet or roll. Waterproof options. Share size + quantity."
+    },
+    {
+      "id": "marketing_calendars",
+      "category": "Marketing Materials",
+      "name": "Calendars / Diaries",
+      "unit": "job",
+      "formats": {},
+      "notes": "Wall/desk calendars. Custom corporate diaries. Seasonal - ask for current rates."
+    },
+    {
+      "id": "large_flex",
+      "category": "Large Format / Outdoor",
+      "name": "Flex Banners",
+      "unit": "sq.ft",
+      "formats": {"Rate": 35},
+      "notes": "Indoor/outdoor flex. With/without eyelets/pole pockets. Share size in feet."
+    },
+    {
+      "id": "large_vinyl",
+      "category": "Large Format / Outdoor",
+      "name": "Large Vinyl / Wall Stickers",
+      "unit": "job",
+      "formats": {},
+      "notes": "Cut vinyl or printed vinyl. Rate depends on size & finish."
+    },
+    {
+      "id": "large_signboards",
+      "category": "Large Format / Outdoor",
+      "name": "Sign Boards / Acrylic / Foam Board",
+      "unit": "job",
+      "formats": {},
+      "notes": "Shop name boards, office door signs. Share size + material preference."
+    },
+    {
+      "id": "large_standee",
+      "category": "Large Format / Outdoor",
+      "name": "Standee / Roll-up Banner",
+      "unit": "piece",
+      "formats": {"Standard": 2800},
+      "notes": "Standard sizes available. With stand. Ask for current stock."
+    },
+    {
+      "id": "apparel_tshirt",
+      "category": "Apparel Printing",
+      "name": "T-shirt Printing",
+      "unit": "piece",
+      "formats": {},
+      "notes": "DTG/screen/heat transfer (by qty). Single piece or bulk. Front/back/both. Share design + quantity + sizes."
+    },
+    {
+      "id": "apparel_polo",
+      "category": "Apparel Printing",
+      "name": "Polo / Uniform Shirts",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Embroidery or print. Company logo uniforms. Share logo + quantity."
+    },
+    {
+      "id": "apparel_hoodies",
+      "category": "Apparel Printing",
+      "name": "Hoodies / Jackets",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Print or embroidery. Custom colors on bulk orders."
+    },
+    {
+      "id": "apparel_caps",
+      "category": "Apparel Printing",
+      "name": "Caps / Hats Printing",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Embroidery preferred for quality. Bulk rates available."
+    },
+    {
+      "id": "apparel_bulk",
+      "category": "Apparel Printing",
+      "name": "Bulk / Team / Event Apparel",
+      "unit": "job",
+      "formats": {},
+      "bulk_rules": [{"min_qty": 20, "note": "Best rates on 20+"}, {"min_qty": 50, "note": "Best rates on 50+"}],
+      "notes": "Sports teams, schools, companies, events. Share item + qty for quote."
+    },
+    {
+      "id": "gifts_mugs",
+      "category": "Promotional / Gift Items",
+      "name": "Coffee Mug / Cup Printing",
+      "unit": "piece",
+      "formats": {"Ceramic": 750},
+      "notes": "Custom design. Single or bulk. Full wrap or logo print. From Rs. 750 (depends on qty). Share design or logo."
+    },
+    {
+      "id": "gifts_bottles",
+      "category": "Promotional / Gift Items",
+      "name": "Water Bottle / Sipper Printing",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Logo or full design. Bulk corporate orders welcome."
+    },
+    {
+      "id": "gifts_small",
+      "category": "Promotional / Gift Items",
+      "name": "Pens / Keychains / Small Gifts",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Printed or engraved. Ideal for giveaways. Share quantity for rate."
+    },
+    {
+      "id": "gifts_bags",
+      "category": "Promotional / Gift Items",
+      "name": "Tote Bags / Non-woven / Cotton Bags",
+      "unit": "piece",
+      "formats": {},
+      "notes": "Screen or digital print. Event & retail packaging use."
+    },
+    {
+      "id": "gifts_corporate",
+      "category": "Promotional / Gift Items",
+      "name": "Other Corporate Gifts",
+      "unit": "job",
+      "formats": {},
+      "notes": "Diaries, power banks, custom kits. We source + print branding. Tell us budget & quantity."
+    },
+    {
+      "id": "packaging_labels",
+      "category": "Packaging & Labels",
+      "name": "Product Labels / Stickers",
+      "unit": "job",
+      "formats": {},
+      "notes": "Roll or sheet. Waterproof/glossy options. Share size + qty."
+    },
+    {
+      "id": "packaging_hangtags",
+      "category": "Packaging & Labels",
+      "name": "Hang Tags / Clothing Tags",
+      "unit": "job",
+      "formats": {},
+      "notes": "With string or hole. Custom shape available."
+    },
+    {
+      "id": "packaging_boxes",
+      "category": "Packaging & Labels",
+      "name": "Boxes / Carton Packaging",
+      "unit": "job",
+      "formats": {},
+      "notes": "Custom printed boxes. Quote after size + quantity."
+    },
+    {
+      "id": "packaging_shopping_bags",
+      "category": "Packaging & Labels",
+      "name": "Printed Shopping Bags",
+      "unit": "job",
+      "formats": {},
+      "notes": "Paper or non-woven. Bulk only for best rates."
+    },
+    {
+      "id": "binding_spiral",
+      "category": "Binding & Finishing",
+      "name": "Spiral Binding",
+      "unit": "job",
+      "formats": {"Up to 50 pages": 150, "50-100 pages": 250},
+      "notes": "100+ pages: on request"
+    },
+    {
+      "id": "binding_thermal",
+      "category": "Binding & Finishing",
+      "name": "Thermal / Perfect Binding",
+      "unit": "job",
+      "formats": {},
+      "notes": "Soft cover booklets & reports. Rate by thickness & quantity."
+    },
+    {
+      "id": "binding_lamination",
+      "category": "Binding & Finishing",
+      "name": "Lamination",
+      "unit": "piece",
+      "formats": {"A4": 60, "A3": 120, "ID Card": 30},
+      "notes": "Matte or gloss."
+    },
+    {
+      "id": "binding_cutting",
+      "category": "Binding & Finishing",
+      "name": "Cutting, Scoring, Folding, Padding",
+      "unit": "job",
+      "formats": {},
+      "notes": "Available with print jobs. Ask when placing order."
+    },
+    {
+      "id": "design_logo",
+      "category": "Design Services",
+      "name": "Logo Design",
+      "unit": "job",
+      "formats": {},
+      "notes": "Basic to premium packages. Source files provided. Share business name + idea."
+    },
+    {
+      "id": "design_card",
+      "category": "Design Services",
+      "name": "Business Card Design",
+      "unit": "job",
+      "formats": {"Design only": 1000},
+      "notes": "Print package available."
+    },
+    {
+      "id": "design_flyer",
+      "category": "Design Services",
+      "name": "Flyer / Brochure Design",
+      "unit": "job",
+      "formats": {},
+      "notes": "Layout + print-ready file. Rate depends on pages & complexity."
+    },
+    {
+      "id": "design_social",
+      "category": "Design Services",
+      "name": "Poster / Social Media Creatives",
+      "unit": "job",
+      "formats": {},
+      "notes": "Print + digital versions."
+    },
+    {
+      "id": "composing_typing",
+      "category": "Composing & Drafting",
+      "name": "English / Urdu Typing",
+      "unit": "page",
+      "formats": {"English": 100, "Urdu (InPage/Unicode)": 150},
+      "notes": "Speed & accurate composing."
+    },
+    {
+      "id": "composing_legal",
+      "category": "Composing & Drafting",
+      "name": "Legal & Stamp Paper Drafting",
+      "unit": "document",
+      "formats": {"Rate": 300},
+      "notes": "Affidavits, agreements, rent contracts. Rs. 300-500 per document. Send details or visit shop."
+    },
+    {
+      "id": "composing_cv",
+      "category": "Composing & Drafting",
+      "name": "CV / Resume Drafting",
+      "unit": "job",
+      "formats": {"Rate": 500},
+      "notes": "Modern professional layouts. Rs. 500-1000. Send details on WhatsApp."
+    },
+    {
+      "id": "composing_letters",
+      "category": "Composing & Drafting",
+      "name": "Applications & Official Letters",
+      "unit": "job",
+      "formats": {"Rate": 200},
+      "notes": "Govt/Private job applications, complaints. Rs. 200-300."
+    }
+  ]
+}

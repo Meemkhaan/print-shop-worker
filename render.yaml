@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: print-shop-worker
+    env: node
+    plan: free
+    buildCommand: npm ci --only=production
+    startCommand: node index.js
+    envVars:
+      - key: OPENWA_URL
+        value: https://openwa-py37.onrender.com
+      - key: OPENWA_API_KEY
+        sync: false
+      - key: OPENWA_SESSION_ID
+        value: default
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: STAFF_NUMBER
+        sync: false
+      - key: PORT
+        value: 10000
+    healthCheckPath: /health
